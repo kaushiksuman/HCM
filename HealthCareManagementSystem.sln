@@ -5,11 +5,11 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{174AE18B-C640-4D73-8247-AFFEDEEE9D6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buissness_Layer", "Buissness_Layer\Buissness_Layer.csproj", "{7769A3C5-FF81-48D3-8661-9D871EDCDD25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "Buissness_Layer\Controller.csproj", "{7769A3C5-FF81-48D3-8661-9D871EDCDD25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO_Layer", "DAO_Layer\DAO_Layer.csproj", "{D7EDDD17-F063-494D-BB93-2CAB536C5AED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAO_Layer\DAL.csproj", "{D7EDDD17-F063-494D-BB93-2CAB536C5AED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI_Layer", "UI_Layer\UI_Layer.csproj", "{DA003AA0-EC67-49E8-B9DD-19AD39B058CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UL", "UI_Layer\UL.csproj", "{DA003AA0-EC67-49E8-B9DD-19AD39B058CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
