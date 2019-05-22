@@ -67,16 +67,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="FirstPage.aspx" />
+    <Content Include="PL\Consultation_WebForm.aspx" />
+    <Content Include="PL\Ward_Detail_WebForm.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FirstPage.aspx.cs">
-      <DependentUpon>FirstPage.aspx</DependentUpon>
+    <Compile Include="PL\Consultation_WebForm.aspx.cs">
+      <DependentUpon>Consultation_WebForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="FirstPage.aspx.designer.cs">
-      <DependentUpon>FirstPage.aspx</DependentUpon>
+    <Compile Include="PL\Consultation_WebForm.aspx.designer.cs">
+      <DependentUpon>Consultation_WebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Ward_Detail_WebForm.aspx.cs">
+      <DependentUpon>Ward_Detail_WebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PL\Ward_Detail_WebForm.aspx.designer.cs">
+      <DependentUpon>Ward_Detail_WebForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

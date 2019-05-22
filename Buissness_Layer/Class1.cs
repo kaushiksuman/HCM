@@ -8,5 +8,6 @@ namespace Buissness_Layer
 {
     public class Class1
     {
+        public string 
     }
 }
